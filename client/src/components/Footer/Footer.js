@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer = () => {
 return(
     <footer id='site-footer'>
-        <h1>The End</h1>
+        <span>Аll rights reserved ®</span>
     </footer>  
     );
 };

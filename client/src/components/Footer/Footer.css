@@ -1,4 +1,7 @@
 #site-footer{
-    height: 5%;
-    background-color: rgb(205, 255, 205);
+    height: 2em;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font: italic small-caps bold 12px/30px Georgia, serif;
 }
