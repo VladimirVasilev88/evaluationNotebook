@@ -1,15 +1,13 @@
-import logo from './logo.svg';
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World! 
-        </p>
-      </header>
+    <div className="container">
+      <Header/>
+
+      <Footer/>
     </div>
   );
 }
