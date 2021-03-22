@@ -2,6 +2,7 @@
   width: 1200px;
   max-height: 100%;
   margin: 0px auto;
-  background-color: greenyellow;
+  background-color: #E5E5F7;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #E5E5F7 1200px ), repeating-linear-gradient( white, #0fa991 );
   position: relative;
 }
