@@ -1,3 +1,22 @@
 #site-header{
     background-color: blanchedalmond;
 }
+
+.navButtons {
+    color: #20bf6b;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 10px;
+    border: 2px solid #20bf6b;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-right: 5px;
+}
+
+.navButtons:hover{
+    color: #494949;
+border-radius: 50px;
+border-color: #494949;
+transition: all 0.3s ease 0s;
+}
