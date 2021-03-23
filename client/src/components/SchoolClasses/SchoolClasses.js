@@ -29,7 +29,7 @@ class Categories extends Component {
             <div id='site-schooleClasses'>
                 <ul className='list-schooleClasse'>
                     {this.state.schooleclasses.map(x => <
-                    schoolclasses
+                    listclasses
                         key={x.id}
                         id={x.id}
                         classname={x.classname}
