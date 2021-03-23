@@ -1,3 +1,5 @@
+import { Rout, Route, Switch } from 'react-router-dom';
+
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Menu from './components/Menu/Menu';
@@ -7,7 +9,11 @@ function App() {
   return (
     <div className="container">
       <Header/>
-      <Menu/>
+      <Menu>
+          <Switch>
+            <Route path='' component/>
+          </Switch>
+      </Menu> 
       <Footer/>
     </div>
   );
