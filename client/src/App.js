@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Menu>
           <Switch>
-            <Route path='' component/>
+            
           </Switch>
       </Menu> 
       <Footer/>

@@ -1,0 +1,32 @@
+.navButtons a{
+    text-decoration: none !important;
+    color: #0fa991;
+}
+.eDiary-text{
+    display: inline-block;
+    margin-right: 10%;
+    text-align: center;
+    color: #0fa991;
+    
+    
+}
+.navButtons {
+    color: #0fa991;
+    background: #ffffff;
+    border-right: 1px solid lightgrey;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+
+}
+
+.navButtons:hover{
+    font-size: xx-large;
+}
+.active{
+    font-size: xx-large;
+}
